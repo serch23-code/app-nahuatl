@@ -8,6 +8,7 @@ import {
 } from '@react-navigation/drawer';
 import {Home} from './screens/home';
 import {Colores} from "./screens/colores";
+import {StorybookScreen} from "./screens/storybook-screen";
 
 const Drawer = createDrawerNavigator();
 
@@ -26,7 +27,7 @@ function CustomDrawerContent(props) {
 function MyDrawer() {
   return (
     <Drawer.Navigator
-      initialRouteName="Home"
+      initialRouteName="Home"  //Storybook
       drawerContent={(props) => <CustomDrawerContent {...props} />}
       drawerContentOptions={{activeTintColor: 'blue'}}>
       <Drawer.Screen
@@ -35,6 +36,7 @@ function MyDrawer() {
         options={{drawerLabel: 'Home'}}
       />
       <Drawer.Screen name = "colores" component={Colores}/>
+      <Drawer.Screen name = "storybook" component = {StorybookScreen}/>
     </Drawer.Navigator>
   );
 }
