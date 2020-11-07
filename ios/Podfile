@@ -79,6 +79,8 @@ target 'Tonelwayotl' do
 
   pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
+  pod 'RNSound', :path => '../node_modules/react-native-sound'
+
   target 'TonelwayotlTests' do
     inherit! :complete
     # Pods for testing
