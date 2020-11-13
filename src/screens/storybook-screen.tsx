@@ -1,7 +1,13 @@
 import * as React from 'react';
 import {Text} from 'native-base';
 import Sound from 'react-native-sound';
-import {Image, ImageSourcePropType, ScrollView, TouchableOpacity, View} from 'react-native';
+import {
+  Image,
+  ImageSourcePropType,
+  ScrollView,
+  TouchableOpacity,
+  View
+} from 'react-native';
 import {CardDataItem} from '../components/card-data-item';
 import {CardItem} from '../components/card-item';
 
@@ -32,7 +38,7 @@ function PlayAudio() {
         'duration in seconds: ' +
           whoosh.getDuration() +
           'number of channels: ' +
-          whoosh.getNumberOfChannels(),
+          whoosh.getNumberOfChannels()
       );
 
       // Play the sound with an onEnd callback
@@ -72,13 +78,13 @@ function CardDataItemStory() {
     {
       name: 'light mode',
       darkMode: false,
-      backgroundColor: '#055c93',
+      backgroundColor: '#055c93'
     },
     {
       name: 'dark mode',
       darkMode: true,
-      backgroundColor: 'white',
-    },
+      backgroundColor: 'white'
+    }
   ];
 
   return (
@@ -93,7 +99,7 @@ function CardDataItemStory() {
             style={{
               flex: 1,
               backgroundColor: variant.backgroundColor,
-              padding: 5,
+              padding: 5
             }}>
             <CardDataItem text={'Color'} darkMode={variant.darkMode} />
           </View>
@@ -129,26 +135,26 @@ function CardListStory() {
       image: require('../assets/images/arbol.jpg'),
       text: 'Arbol',
       translate: 'Kowitl',
-      soundName: 'audio.mp3',
+      soundName: 'audio.mp3'
     },
     {
       image: require('../assets/images/casa.png'),
       text: 'Casa',
       translate: 'Kale',
-      soundName: 'audio.mp3',
+      soundName: 'audio.mp3'
     },
     {
       image: require('../assets/images/saludar.png'),
       text: 'Hola',
       translate: 'Hello',
-      soundName: 'audio.mp3',
+      soundName: 'audio.mp3'
     },
     {
       image: require('../assets/images/sonido.png'),
       text: 'Sonido',
       translate: 'Sound',
-      soundName: 'audio.mp3',
-    },
+      soundName: 'audio.mp3'
+    }
   ];
 
   return (

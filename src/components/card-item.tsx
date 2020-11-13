@@ -34,12 +34,12 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     borderColor: '#292929',
     padding: 2,
-    borderBottomWidth: 1,
+    borderBottomWidth: 1
   },
   rowContainer: {
-    flexDirection: 'row',
+    flexDirection: 'row'
   },
   section: {
-    padding: 5,
-  },
+    padding: 5
+  }
 });

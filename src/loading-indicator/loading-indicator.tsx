@@ -16,6 +16,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     flexDirection: 'row',
     padding: 10,
-    minHeight: 60,
-  },
+    minHeight: 60
+  }
 });

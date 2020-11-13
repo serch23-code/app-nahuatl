@@ -8,7 +8,7 @@ import {
   Left,
   Body,
   Icon,
-  Text,
+  Text
 } from 'native-base';
 
 export class Home extends React.Component<{navigation}> {

@@ -19,7 +19,7 @@ export function PlaySound({soundName}: SoundProps) {
         'duration in seconds: ' +
           whoosh.getDuration() +
           'number of channels: ' +
-          whoosh.getNumberOfChannels(),
+          whoosh.getNumberOfChannels()
       );
 
       // Play the sound with an onEnd callback

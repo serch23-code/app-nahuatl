@@ -14,7 +14,7 @@ interface State {
 export class Colores extends React.Component<{navigation}> {
   public state: State = {
     items: [],
-    isLoading: true,
+    isLoading: true
   };
 
   public async componentDidMount() {

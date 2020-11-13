@@ -14,7 +14,7 @@ export function CardDataItem({text, darkMode}: CardDataItemProps) {
         flexDirection: 'row',
         alignItems: 'center',
         paddingVertical: 10,
-        paddingHorizontal: 10,
+        paddingHorizontal: 10
       }}>
       <Text
         numberOfLines={1}
@@ -24,7 +24,7 @@ export function CardDataItem({text, darkMode}: CardDataItemProps) {
           flexShrink: 1,
           color: darkMode ? '#055c93' : '#292929',
           fontSize: 18,
-          fontWeight: 'bold',
+          fontWeight: 'bold'
         }}>
         {text}
       </Text>
