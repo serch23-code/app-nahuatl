@@ -11,6 +11,6 @@ export const colors: CardItemProps[] = [
     image: require('../assets/images/colores/rojo.png'),
     text: 'Rojo',
     translate: 'Chichiltik',
-    soundName: 'audio.mp3'
+    soundName: 'audio_only.m4a'
   }
 ];

@@ -28,6 +28,7 @@ export class Home extends React.Component<{navigation}> {
         </Header>
         <Content>
           <Text>This is Content Section</Text>
+          <Button onPress={()=>navigation.navigate('colores')}><Text>Colores</Text></Button>
         </Content>
       </Container>
     );
